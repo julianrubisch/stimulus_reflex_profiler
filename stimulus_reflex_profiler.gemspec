@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = StimulusReflexProfiler::VERSION
   spec.authors     = ["Julian Rubisch"]
   spec.email       = ["julian@julianrubisch.at"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of StimulusReflexProfiler."
-  spec.description = "TODO: Description of StimulusReflexProfiler."
+  spec.homepage    = "https://github.com/julianrubisch/stimulus_reflex_profiler"
+  spec.summary     = "A Rails engine with profiling options for StimulusReflex"
+  spec.description = "A Rails engine with profiling options for StimulusReflex"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -25,7 +25,8 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.4"
+  spec.add_dependency "rails", "~> 6.0.3"
 
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "stimulus_reflex"
+  spec.add_development_dependency "standard"
 end
