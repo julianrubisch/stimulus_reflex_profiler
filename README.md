@@ -1,5 +1,6 @@
 # StimulusReflexProfiler
-Short description and motivation.
+<img width="1576" alt="Bildschirmfoto_2020-10-30_um_14_08_06" src="https://user-images.githubusercontent.com/4352208/97709113-1bf1c200-1aba-11eb-8d0e-3632b5bb0e25.png">
+
 
 ## Usage
 How to use my plugin.
