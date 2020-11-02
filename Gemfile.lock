@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     stimulus_reflex_profiler (0.1.0)
-      rails (~> 6.0.3, >= 6.0.3.4)
+      rails (~> 6.0.3)
+      stimulus_reflex
 
 GEM
   remote: https://rubygems.org/
@@ -171,7 +172,6 @@ PLATFORMS
 
 DEPENDENCIES
   standard
-  stimulus_reflex
   stimulus_reflex_profiler!
 
 BUNDLED WITH

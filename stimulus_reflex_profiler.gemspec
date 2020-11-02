@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", "~> 6.0.3"
 
-  spec.add_development_dependency "stimulus_reflex"
+  spec.add_runtime_dependency "stimulus_reflex"
   spec.add_development_dependency "standard"
 end
