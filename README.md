@@ -12,7 +12,7 @@ Mount `StimulusReflexProfiler` as an engine in your `routes.rb`.
 
 ```ruby
 if Rails.env.development?
-  mount StimulusReflexProfiler::Engine, at: 'stimulus_reflex_profiler'
+  mount StimulusReflexProfiler::Engine, at: '/stimulus_reflex_profiler'
 end
 ```
 
