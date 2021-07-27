@@ -8,8 +8,12 @@ StimulusReflex::Reflex.class_eval do
 
     StimulusReflexProfiler::Flamegraph::Output.instance.content = html
   end
+
+  def flamegraph?
+    defined?(Flamegraph) && Flamegraph.respond_to?(:generate)
+  end
 end
 
 StimulusReflex::Reflex.class_exec do
-  set_callback :process, :around, :run_flamegraph, if: defined?(Flamegraph) && Flamegraph.respond_to?(:generate)
+  set_callback :process, :around, :run_flamegraph, if: :flamegraph?
 end
